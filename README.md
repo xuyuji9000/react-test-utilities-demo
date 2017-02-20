@@ -1,3 +1,3 @@
-# redux demo
+# react test utilities demo
 
-This is a redux demo.
+This is a react test utilities demo.
