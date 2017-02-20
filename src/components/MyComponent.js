@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SubComponent from "./SubComponent";
 
 class MyComponent extends Component
 {
@@ -7,8 +8,10 @@ class MyComponent extends Component
         return (
             <div>
                 <span className="heading">Title</span>
-                <Subcomponent foo="bar"></Subcomponent>
+                <SubComponent foo="bar"></SubComponent>
             </div>
         );
     }
 }
+
+export default MyComponent;
