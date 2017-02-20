@@ -16,7 +16,7 @@ describe("MyComponent",function(){
         expect(result.type).toBe("div");
     });
 
-    it("has specific content",function() {
+    it("has specific children array",function() {
         const renderer = ReactTestUtils.createRenderer();
         renderer.render(<MyComponent></MyComponent>);
         const result = renderer.getRenderOutput();
